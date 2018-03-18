@@ -1,5 +1,5 @@
-yarn
-npm start
+yarn<br>
+npm start<br>
 ... wait more than 1 min
-npm test
-npm run getErrors
+npm test<br>
+npm run getErrors<br>
