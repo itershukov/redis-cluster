@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start":  "rm -f receive && rm -f send && rm -f startup.log && node app.js >/dev/null",
+    "test": "node check",
+    "getErrors": "NODE_ENV=getErrors node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "redis": "^2.8.0",
+    "redlock": "^3.1.1",
+    "uuid": "^3.2.1"
+  }
+}
